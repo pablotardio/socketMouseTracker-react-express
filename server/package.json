@@ -1,0 +1,43 @@
+{
+  "name": "boardy-server",
+  "version": "1.0.0",
+  "description": "The server side of an app of board online",
+  "main": "server",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablotardio/boardy-server.git"
+  },
+  "keywords": [
+    "board"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.824.0",
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "qrcode": "^1.4.4",
+    "sequelize": "^6.3.4",
+    "socket.io": "^3.1.0",
+    "stripe": "^8.88.0",
+    "uuid": "^8.3.0"
+  },
+  "author": "pablotardio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablotardio/boardy-server/issues"
+  },
+  "homepage": "https://github.com/pablotardio/boardy-server#readme"
+}
